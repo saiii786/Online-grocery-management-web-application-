@@ -1,0 +1,110 @@
+body{
+	background-image: url(images/back.jpg);
+	font-family: 'Times New Roman', Times, serif;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.menu{
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 40px 0px;
+	margin-left: 100px;
+}
+.menu li a{
+    padding: 3px 10px;
+    margin: auto;
+    color: whitesmoke;
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.menu li a:hover,
+.menu .active{
+    color: whitesmoke;
+    transition: all ease 0.3s;
+}
+.header p{
+	color: aliceblue;
+}
+ .signup-box{
+    width: 360px;
+	height: 650px;
+	margin: auto;
+	margin-top: 120px;
+	margin-right: 1000px;
+ }
+ .login-box{
+	width: 360px;
+	height: 400px;
+	margin: auto;
+	margin-top: 120px;
+	margin-right: 1000px;
+}
+.profile{
+	width: 360px;
+	height: 400px;
+	margin: auto;
+	margin-top: 120px;
+	margin-right: 1000px;
+}
+ h1{
+	text-align: center;
+	padding-top: 15px;
+	color: aliceblue;
+ }
+ h4{
+	text-align: center;
+	color: aliceblue;
+ }
+ form{
+	width: 300px;
+	margin-left: 20px;
+ }
+ form label{
+	display: flex;
+	margin-top: 20px;
+	font-size: 18px;
+	color: aliceblue;
+ }
+ form input{
+	width: 100%;
+	padding: 7px;
+	border: none;
+	border: 1px solid white;
+	border-radius: 6px;
+	outline: none;
+ }
+ form button{
+	width: 320px;
+	height: 35px;
+	margin-top: 20px;
+	border: none;
+	background-color: #40ac91;
+    color: white;
+    font-size: 18px;
+	border-radius: 20px;
+ }
+ p{
+	text-align: center;
+	padding: 20px;
+	font-size: 15px;
+	color: white;
+ }
+ .para-1{
+	text-align: center;
+	padding: 20px;
+	font-size: 3.6rem;
+	color: bisque;
+	margin-right: 700px;
+	margin-top: 250px;
+ }
+ .para-2{
+	text-align: center;
+	color:white;
+	font-size: 15px;
+	margin-top: 10px;	
+ }
+ .para-2 a{
+	color: rgb(212, 180, 141);
+ }
+ 
